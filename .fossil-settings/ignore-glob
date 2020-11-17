@@ -1,0 +1,12 @@
+vendor/*
+test/temp/
+nbproject/private/*
+composer.lock
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+

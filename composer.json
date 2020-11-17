@@ -1,0 +1,33 @@
+{
+    "name": "ra5k/dave",
+    "description": "Data Vectors for PHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ra5k",
+            "email": "ra5k@mailbox.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "php-ds/php-ds": "^1.3"    
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    }    
+    "autoload": {
+        "psr-4": {
+            "Ra5k\\Dave\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ra5k\\Dave\\Test\\": "test/src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --bootstrap test/bootstrap.php test/src"
+    }
+}
