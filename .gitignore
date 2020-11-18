@@ -3,6 +3,7 @@
 /.fossil-settings
 /composer.lock
 /nbproject/private/*
+/test/temp
 .idea
 .vscode
 *.suo
